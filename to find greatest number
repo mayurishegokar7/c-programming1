@@ -1,0 +1,19 @@
+// to find greateast number
+# include <stdio.h>
+int main()
+{
+    int n1,n2,n3;
+    printf("enter three numbers:");
+    scanf("%d",& n1);
+    printf("enter 2nd number:");
+    scanf("%d",& n2);
+    printf("enter 3rd number:");
+    scanf("%d",& n3);
+    if (n1>n2 && n1>n3)
+        printf("%d is greatest number",n1);
+    else if (n2>n1 && n2>n3)
+         printf("%d is greatest number",n2);
+    else if (n3>n1 && n3>n2)
+         printf("%d is greatest number",n3);
+    return 0;
+}
